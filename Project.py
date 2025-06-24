@@ -35,7 +35,7 @@ collection.add(
 )
 print("Data loaded. Start chatting!")
 
-# Chat loop
+
 while True:
     prompt = input("\t\t\tHow can I help you?\n>  ")
     if prompt.lower() in ['exit', 'quit', 'bye']:
